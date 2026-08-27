@@ -1,19 +1,27 @@
 # Inštalacija Windows Serverja na VirtualBox
 
-## Cilji
-- Inštalirati Windows Server 2025 na Oracle Virtual Box
+## Kaj sem naredu
 
-## Postopek
-1. Zaženemo VM, z dvojnim klikom ali pa desni klik -> Run
+Zagnal sem VM in šel skoz namestitveni čarovnik. Prvi poskus izbire particije mi je javil error, zato sem particijo zbrisal in izbral celoten unallocated space namesto že obstoječe particije - to je popravlo napako.
 
-![Slika](../images/l1s.png)
+Nato sem samo počakal da se Windows Server namesti (par minut).
+
+<details>
+<summary>📸 Screenshoti</summary>
+
+![Zagon VM](../images/l1s.png)
+
 ---
-2. Kliknemo na "Delete Partition" ter določimo celotno velikost te particije, ker v tem primeru bomo uporabili samo eno, sem tudi tako naredil in na to kliknem na Next.
+![Izbira particije](../images/instalacija1.png)
 
 
-
-![Slika](../images/instalacija1.png)
 ---
-3. Zdaj pa počakam da se Windows Server namesti.
+![Namestitev v teku](../images/wserverinstall.png)
 
-![Slika](../images/wserverinstall.png)
+</details>
+
+## Težave
+- Prvi poskus izbire obstoječe particije je javil error "There is an error selecting this partition for install" - rešitev: Delete Partition, nato izbrat unallocated space namesto obstoječe particije
+
+## Naučeno
+- Windows Server namestitev je bila precej standardna, podobno kot navaden Windows install.

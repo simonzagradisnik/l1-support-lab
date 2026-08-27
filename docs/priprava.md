@@ -1,18 +1,21 @@
 # Priprava virtualnega okolja
 
-## Cilji
-- Prenos VirtualBox-a ter Windows Serverja
-- Namestitev VirtualBoxa ter Windows Serverja v novem virtualnem okolju
+## Kaj sem naredu
 
+Prenesu [VirtualBox](https://www.virtualbox.org/wiki/Downloads) in [Windows Server 2025](https://www.microsoft.com/en-us/evalcenter/download-windows-server-2025) evaluation ISO.
 
-## Postpek
-- Prenos [Virtual Box-a](https://www.virtualbox.org/wiki/Downloads)
-- Prenos [Windows Server 2025](https://www.microsoft.com/en-us/evalcenter/download-windows-server-2025)
-- Inšalacija VMja je bila preprosta in brez težav
----
-- Na to sem odprl Oracle VirtualBox Manager -> New -> Dodal svoj ISO, naštimal RAM na 8GB, 4 cpu jedra in virtualni disk v .vdi formatu z 60GB prostora. ![Slika](../images/new1.png)
----
-- Preveril če je nastavljen NAT pod Settings -> Network.
+Naredu novo VM v VirtualBox Manager (New): 8GB RAM, 4 CPU jedra, 60GB virtualni disk (.vdi format), priklopu Windows Server ISO.
 
+Preveru da je Network nastavljen na NAT(Network Address Translation).
 
-![Slika](../images/nat1.png)
+<details>
+<summary>📸 Screenshoti</summary>
+
+![Nastavitve nove VM](../images/new1.png)
+![NAT nastavitev](../images/nat1.png)
+
+</details>
+
+## Naučeno
+- Namestitev VirtualBoxa je bla preprosta, brez težav
+- NAT je kot recepcija - moj VM ima notranji naslov, NAT pa poskrbi da lahko pošlje pakete ven na internet in da odgovori pridejo nazaj k pravemu naslovu (VM-ju)
