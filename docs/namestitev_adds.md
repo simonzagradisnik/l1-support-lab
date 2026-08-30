@@ -1,6 +1,6 @@
 # Namestitev AD Domain Services (AD DS)
 
-## Kaj sem naredu
+## Kaj sem naredil
 
 Namestu AD DS vlogo:
 ```powershell
@@ -50,5 +50,5 @@ Oba (ADDS, DNS) sta Running - vse dela.
 - **Forest: homelab.local** - najvišja organizacijska enota v AD (ker je to prva/edina domena, je hkrati tudi forest)
 
 ## Naučeno
-- DC rabi static IP + DNS na samga sebe, sicer ADDSForest fejla
+- DC rabi static IP + DNS na samega sebe, sicer ADDSForest fejla
 - Safe Mode geslo mora bit dost kompleksno

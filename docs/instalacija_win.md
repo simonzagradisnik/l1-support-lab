@@ -1,6 +1,6 @@
 # Inštalacija Windows Serverja na VirtualBox
 
-## Kaj sem naredu
+## Kaj sem naredil
 
 Zagnal sem VM in šel skoz namestitveni čarovnik. Prvi poskus izbire particije mi je javil error, zato sem particijo zbrisal in izbral celoten unallocated space namesto že obstoječe particije - to je popravlo napako.
 

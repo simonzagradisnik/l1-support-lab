@@ -1,6 +1,6 @@
 # Priprava virtualnega okolja
 
-## Kaj sem naredu
+## Kaj sem naredil
 
 Prenesu [VirtualBox](https://www.virtualbox.org/wiki/Downloads) in [Windows Server 2025](https://www.microsoft.com/en-us/evalcenter/download-windows-server-2025) evaluation ISO.
 

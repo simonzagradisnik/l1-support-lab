@@ -4,7 +4,7 @@ Osebni projekt za virtualizacijo tech supporta.
 > **Uporaba AI (Claude, Gemini) za učenje, postopke ter razlage - vso delo in dokumentacija je moja.**
 
 ## Cilji
-- Samo učenje novih veščin kot je WS, AD, nastavljanje statičnega IPja...
+- Samo učenje novih veščin kot je WS, AD, nastavljanje statičnega IPja, PowerShella...
 - Dokumentacija postopkov
 - Vzpostaviti virtualni L1 Tech Support workplace
 - Sprotno učenje uporabe GitHuba, GitBash ter VS Code za publikacijo tega projekta
@@ -14,6 +14,8 @@ Osebni projekt za virtualizacijo tech supporta.
 2. [Inštalacija Windows Serverja na VMju](docs/instalacija_win.md)
 3. [Nastavljanje Windows Serverja](docs/nastavitve_win.md)
 4. [Namestitev Active Directory Domain Services](docs/namestitev_adds.md)
+5. [Ustvarjanje uporabnikov v AD](docs/ad_uporabniki.md)
+6. [Ustvarjanje ter reševanje ticketov](docs/tickets.md)
 
 ## Orodja ki sem jih uporabil
 - [Windows Server 2025 ISO](https://www.microsoft.com/en-us/evalcenter/download-windows-server-2025)
