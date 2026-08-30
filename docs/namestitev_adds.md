@@ -2,19 +2,19 @@
 
 ## Kaj sem naredil
 
-Namestu AD DS vlogo:
+Namestil AD DS vlogo:
 ```powershell
 Install-WindowsFeature -Name AD-Domain-Services -IncludeManagementTools
 ```
 
-Povišu strežnik v Domain Controller:
+Povišal strežnik v Domain Controller:
 ```powershell
 Install-ADDSForest -DomainName "homelab.local" -InstallDNS
 ```
 
-Rabu sem geslo za Safe Mode (velike/male črke, številke, znaki) - prvi poskus je fejlu ker je bilo prešibko.
+Rabil sem geslo za Safe Mode (velike/male črke, številke, znaki) - prvi poskus je fejlu ker je bilo prešibko.
 
-Po restartu preveru da je vse ok:
+Po restartu sem preveril da je vse ok:
 ```powershell
 Get-ADDomain
 ```

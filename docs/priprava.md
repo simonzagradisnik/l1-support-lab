@@ -2,11 +2,11 @@
 
 ## Kaj sem naredil
 
-Prenesu [VirtualBox](https://www.virtualbox.org/wiki/Downloads) in [Windows Server 2025](https://www.microsoft.com/en-us/evalcenter/download-windows-server-2025) evaluation ISO.
+Prenesil [VirtualBox](https://www.virtualbox.org/wiki/Downloads) in [Windows Server 2025](https://www.microsoft.com/en-us/evalcenter/download-windows-server-2025) evaluation ISO.
 
-Naredu novo VM v VirtualBox Manager (New): 8GB RAM, 4 CPU jedra, 60GB virtualni disk (.vdi format), priklopu Windows Server ISO.
+Naredil novo VM v VirtualBox Manager (New): 8GB RAM, 4 CPU jedra, 60GB virtualni disk (.vdi format), priklopu Windows Server ISO.
 
-Preveru da je Network nastavljen na NAT(Network Address Translation).
+Preveril da je Network nastavljen na NAT(Network Address Translation).
 
 <details>
 <summary>📸 Screenshoti</summary>
